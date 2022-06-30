@@ -1,8 +1,8 @@
 module.exports = {
-  "extends": "eslint:recommended",
+  "extends": `eslint:recommended`,
   "parserOptions": {
-    "ecmaVersion": "latest",
-    "sourceType": "module"
+    "ecmaVersion": `latest`,
+    "sourceType": `module`
   },
   "env": {
     "browser": true,
@@ -10,11 +10,11 @@ module.exports = {
     "es2021": true
   },
   "rules": {
-    "array-bracket-spacing": [2, "always" ],
+    "array-bracket-spacing": [ 2, `always` ],
     "no-const-assign": 2,
-    "no-var": "error",
-    "indent": [2, 2],
-    "quotes": [2, "backtick"],
-    "eqeqeq": "error"
+    "no-var": `error`,
+    "indent": [ 2, 2 ],
+    "quotes": [ 2, `backtick` ],
+    "eqeqeq": `error`
   }
 }
